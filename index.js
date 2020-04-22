@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 3100;
+const port = process.env.PORT || 3100;
 const setUpDb = require("./config/database");
 const router = require("./config/router");
 const path = require("path");
@@ -14,6 +14,6 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname + "/client/build/index.html"));
 });
 
-app.listen(PORT, () => {
+app.listen(port, () => {
   console.log("listening on port ", port);
 });
