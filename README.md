@@ -7,7 +7,7 @@ A Twitter App built for fetching user tweets <br/> to view it live click [here]h
 ## Introduction
 
 **Tech Stack Used** : <br/>
-**Front End**:React,Redux,Material UI,Socket.io Client <br/>
+**Front End**:React,Redux,Material UI <br/>
 **Back End**:Express,mongoose,twitter(npm package to interact with twitter api) <br/>
 
 ### Problem Statement
