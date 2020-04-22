@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 3100;
+const PORT = process.env.PORT || 3100;
 const setUpDb = require("./config/database");
 const router = require("./config/router");
 
@@ -15,6 +15,6 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log("listening on port ", port);
 });
